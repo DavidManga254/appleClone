@@ -1,0 +1,278 @@
+body{
+    width: 100vw;
+    max-width: 100%;
+    overflow-x: hidden;
+    margin: 0;
+}
+header{
+    max-width: 100%;
+    position: sticky;
+    height: 6vh;
+    position: -webkit-sticky;
+    top: 0;
+    display: flex;
+    background-color: rgba(55, 51, 51, 0.95);
+    color: rgb(210, 207, 207);
+}
+#nav,#header1{
+    display: flex;
+}
+#header1{
+    margin-left: 18vw;
+
+}
+#header2{
+    display: none;
+}
+#header1 i{
+    font-size: 1.2rem;
+    margin-top: 2vh;
+}
+#applelogo{
+    margin-right: 2vw;
+}
+#bag{
+    margin-left: 2vw;
+}
+#nav p{
+    margin-right: 2vw;
+    font-size: 1rem;
+}
+.innertab, #tabs{
+    max-width: 100%;
+}
+.innertab{
+    height: 80vh;
+    margin-bottom: 1vh;
+    overflow-y: hidden;
+    background-color: rgb(250, 249, 249);
+}
+#iphone14{
+    display: flex;
+    justify-content: center;
+}
+#details{
+    height: fit-content;
+    padding-top: 0;
+}
+#details .centre , #more{
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+}
+#more{
+    color: blue;
+}
+#details h2{
+    font-size: 3rem;
+    margin-top: 5vh;
+    padding-top: 0;
+}
+#details h3{
+    margin-top: 5vh;
+    font-size: 1.5rem;
+}
+#details p{
+    font-size: 1.5rem;
+}
+#p1{
+margin-right: 2vw;
+}
+#iphone14image{
+    width: 49vw;
+    height: 58vh;
+    margin-top: 5vh;
+}
+#wrapper{
+    background-image: url("../images/applewrappercopy.jpg");
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#wrapper{
+    display: flex;
+    justify-content: center;
+}
+#wrapperimage img{
+    width: 50vw;
+    height: 55vh;
+    right: 25vw;
+}
+#wrapperdetails{
+    color: white;
+    
+}
+#wrapperdetail{
+    height: 80vh;
+    margin-top: -10vh;
+}
+#wrapperdetail h2,h3,p{
+    text-align: center;
+}
+#wrapperdetail h2{
+    font-size: 3.5rem;
+    margin-top: 0;
+}
+#wrapperdetail h3{
+    font-size: 1.6rem;
+    margin-left: 13vw;
+    margin-top: -5vh;
+    width: 24vw;
+}
+#wrapperdetail p{
+    font-size: 1.5rem;
+    color: blue;
+    margin-top: -1vh;
+}
+#applecard{
+    background-image: url('../images/hero__dvsxv8smkkgi_largetall.jpeg');
+    
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+#applecardwrapper{
+    margin: 0;
+}
+#cardtitle h2{
+    text-align: center;
+    font-size: 3.5rem;
+    height: fit-content;
+}
+#long{
+    font-size: 2rem;
+    width: 35vw;
+    margin-top: -6vh;
+}
+#short{
+    font-size: 1.5rem;
+    margin-top: -1vh;
+}
+#dalink{
+    display: flex;
+    padding-left: 8vw;
+    margin-top: -3vh;
+}
+#dalink p{
+    margin-right: 2vw;
+    font-size: 1.5rem;
+    color: blue;
+}
+.beyond{
+    display: flex;
+    padding-left: 0.5vw;
+    color: white;
+
+}
+.phonepro{
+    width: 48vw;
+    margin-right: 1vw;
+    background-image: url('../images/promo_iphone14pro__4n4twj56fzmu_large.jpeg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.phonepro h1{
+    font-size: 2.5rem;
+    text-align: center;
+} 
+.pp{
+    font-size: 1.5rem;
+    margin-top: -4vh;
+}
+.ll{
+    display: flex;
+    color: blue;
+    justify-content: center;
+    margin-top: 2vh;
+}
+.ll p{
+    margin-right: 2vw;
+    font-size: 1.5rem;
+    margin-top: -3vh;
+}
+#ipad{
+    color: black;
+    width: 48vw;
+    background-image: url('../images/promo_ipad__fioegapg12qi_large.jpeg');
+    background-size: 100% 100%;
+
+}
+#airpods{
+    color: black;
+    background-image: url('../images/promo_airpods_holiday__fqg7rt8b4vma_large.jpeg');
+    background-size: 100% 100%;
+}
+#airpods .ll{
+    justify-content: center;
+}
+#airwatch{
+    background-image: url('../images/promo_apple_watch_series_8__ch7rexplmihe_large.jpeg');
+    background-size: 100% 100%;
+}
+#ultrawatch{
+    background-image: url('../images/promo_apple_watch_ultra__gnsqulvdc4a6_large\ \(1\).jpeg');
+    background-size: 100% 100%;
+    color: black;
+}
+#pod{
+    background-image: url('../images/tile_homepod_mini__b73w4z3ljymu_large.jpeg');
+    background-size: 100% 100%;
+    color: black;
+}
+#movier{
+    width: 100vw;
+    height: 95vh;
+    display: flex;
+    overflow: hidden;
+    scroll-behavior: smooth;
+}
+#movier img{
+    width: 80vw;
+    height: 85vh;
+}
+.movietab{
+    margin-right: 0.5vw;
+    margin-left: 0.5vw;
+    height: 95vh;
+}
+#right{
+    position: absolute;
+    right: 0;
+    height: 85vh;
+    background-color: rgb(0, 0,0,.8);
+    color: white;
+    font-size: 1.5rem;
+}
+#left{
+    position: absolute;
+    left:0;
+    height: 85vh;
+    background-color: rgb(0, 0,0,.8);
+    color: white;
+    font-size: 1.5rem;
+}
+.copy{
+    display: flex;
+    overflow:scroll;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    font-size: 1rem;
+}
+#footerdetails{
+    width: 70vw;
+}
+#footerdetails p{
+    text-align:left;
+}
+#manylink{
+    display: flex;
+}
+.minorlink{
+    width: calc(100%/3);
+}
